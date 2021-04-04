@@ -1,3 +1,9 @@
+window.onload = function () {
+  var emailReplace = document.getElementById("email-replace");
+  emailReplace.innerText = "joe@repeatrevenue.co.uk";
+  emailReplace.href = "mailto:joe@repeatrevenue.co.uk";
+};
+
 var form = document.getElementById("contact-form");
 async function handleSubmit(event) {
   event.preventDefault();
